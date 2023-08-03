@@ -13,7 +13,7 @@ export class AppComponent {
   icons: string[][];
 
   constructor(private _snackBar: MatSnackBar) {
-    this.icons = chunk(icons as string[], 40);
+    this.icons = chunk(icons as string[], 20);
   }
 
   copyText(icon: string) {
