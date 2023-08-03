@@ -3,3 +3,12 @@
   padding: 10px;
   text-align: center;
 }
+
+.icon {
+  color: #111;
+  cursor: copy;
+}
+
+.icon:hover {
+  color: magenta;
+}

@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
     AppRoutingModule,
     NoopAnimationsModule,
     MatIconModule,
+    MatSnackBarModule,
+    ClipboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

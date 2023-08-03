@@ -30,9 +30,3 @@ body {
 .header {
   text-align: center;
 }
-
-.header h1 {
-  padding-top: 5%;
-  margin: 0;
-  font-size: calc(max(5vw, 32px));
-}
